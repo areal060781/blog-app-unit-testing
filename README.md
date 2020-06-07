@@ -10,7 +10,7 @@ Configure your system so FLASK_APP and FLASK_DEBUG are set by default.
 ### Installation
 ```sh
 git clone https://github.com/areal060781/social-blog.git
-cd blog
+cd social-blog
 virtualenv env
 pip install requirements.txt
 ```
