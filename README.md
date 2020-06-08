@@ -1,5 +1,8 @@
 # A Social Blogging Application
 
+* User authentication
+* User roles
+
 ### Requirements
 * Python 3.7
 * Virtualenv
