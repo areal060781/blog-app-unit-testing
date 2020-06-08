@@ -13,6 +13,7 @@ git clone https://github.com/areal060781/social-blog.git
 cd social-blog
 virtualenv env
 pip install requirements.txt
+flask db upgrade
 ```
 
 Run the application as usual
