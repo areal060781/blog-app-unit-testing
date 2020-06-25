@@ -15,7 +15,7 @@ Configure your system so FLASK_APP and FLASK_DEBUG are set by default.
 git clone https://github.com/areal060781/social-blog.git
 cd social-blog
 python3 -m venv venv
-pip install -r requirements.txt
+pip install -r requirements/common.txt
 flask db upgrade
 ```
 
