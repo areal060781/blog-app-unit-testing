@@ -1,7 +1,9 @@
-# A Social Blogging Application
+# A clon of Blogger
 
 * User authentication
 * User roles
+* User profiles
+* Blog posts
 
 ### Requirements
 * Python 3.7
