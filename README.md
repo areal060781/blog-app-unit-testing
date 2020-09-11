@@ -1,4 +1,4 @@
-# A clon of Blogger
+# A Blogger clone
 A blogging and social networking application made with Flask, include an Application Programming Interface and implements different unit testing strategies
 
 ### Includes
@@ -15,7 +15,7 @@ A blogging and social networking application made with Flask, include an Applica
 * Code coverage reports
 * Web application testing
 * Web services testing
-* End to end testing with Selenium
+* End to end testing with **Selenium**
 
 
 ### Requirements
@@ -26,12 +26,16 @@ A blogging and social networking application made with Flask, include an Applica
 Configure your system so FLASK_APP and FLASK_DEBUG are set by default.
 
 ### Installation
+Inside the project directory, create the environment, activate it and install the requirements
 ```sh
-git clone https://github.com/areal060781/social-blog.git
-cd social-blog
 python3 -m venv venv
+. twittervotes/bin/activate
 pip install -r requirements/common.txt
 pip install -r requirements/dev.txt
+```
+
+Run the migrations
+```
 flask db upgrade
 ```
 
