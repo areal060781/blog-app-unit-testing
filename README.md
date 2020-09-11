@@ -11,7 +11,12 @@ A blogging and social networking application made with Flask, include an Applica
 * Profile pages
 * Followers
 * User comments for blog posts
-* Application Programming Interface (API)
+* RESTful webservices
+  * Error handling
+  * User authentication (HTTPAuth, JWT)
+  * Serializing resources
+  * Pagination
+  * Tests
 * Code coverage reports
 * Web application testing
 * Web services testing
